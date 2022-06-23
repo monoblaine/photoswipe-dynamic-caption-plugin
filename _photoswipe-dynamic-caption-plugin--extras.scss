@@ -1,0 +1,24 @@
+// view-source:https://dimsemenov.github.io/photoswipe-dynamic-caption-plugin/
+
+.pswp-gallery__item {
+  margin: 0 4px 4px 0;
+}
+.pswp-gallery__item img {
+  display: block;
+}
+.pswp-gallery {
+  max-width: 650px;
+  padding: 0 50px 50px;
+  background: #eee;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pswp__dynamic-caption {
+  color: #fff;
+  width: 100%;
+}
+.pswp__dynamic-caption a {
+  color: #fff;
+  text-decoration: underline;
+}
